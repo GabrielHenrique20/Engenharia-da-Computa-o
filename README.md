@@ -1,4 +1,5 @@
-📂 Repositório de Engenharia da Computação
+# 📂 Repositório de Engenharia da Computação# 
+
 Bem-vindo ao meu repositório! 🚀 Aqui você encontrará meus projetos, trabalhos, códigos e anotações do curso de Engenharia da Computação.
 
 Este espaço serve como um registro da minha jornada acadêmica, onde armazeno desde exercícios e algoritmos até projetos mais complexos desenvolvidos ao longo do curso.
