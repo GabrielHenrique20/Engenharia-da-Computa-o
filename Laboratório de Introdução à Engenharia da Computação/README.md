@@ -1,4 +1,4 @@
-# Laboratório de introdução à Engenharia da Computação
+# 🧪 Laboratório de introdução à Engenharia da Computação
 Bem-vindo ao repositório Laboratório de introdução à Engenharia da Computação. Aqui você encontrará reflexões sobre a relação entre religião, indivíduo e sociedade, além de debates sobre ética, valores e diversidade religiosa.
 
 <div align="center" style="margin-top: 80px;">
