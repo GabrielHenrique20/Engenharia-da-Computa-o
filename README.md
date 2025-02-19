@@ -10,3 +10,7 @@ Este espaço serve como um registro da minha jornada acadêmica, onde armazeno d
 - 📜 **Anotações e resumos** – Material de estudo e referências úteis
 
 Sinta-se à vontade para explorar, contribuir ou deixar sugestões! 😊
+
+<div align="center" style="margin-top: 80px;">
+  <img src="https://github.com/GabrielHenrique20/Engenharia-da-Computa-o/blob/main/Special_Fire_Fighting_Industrial_Complex.webp" alt="Luffy" style="width: 100%; max-width: 800px;">
+</div>
