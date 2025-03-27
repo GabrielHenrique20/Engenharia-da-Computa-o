@@ -53,47 +53,35 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(270,370)" to="(330,370)"/>
-    <wire from="(270,250)" to="(330,250)"/>
-    <wire from="(230,200)" to="(230,330)"/>
-    <wire from="(240,220)" to="(330,220)"/>
-    <wire from="(500,250)" to="(530,250)"/>
-    <wire from="(580,270)" to="(630,270)"/>
-    <wire from="(380,240)" to="(400,240)"/>
-    <wire from="(150,250)" to="(270,250)"/>
-    <wire from="(490,160)" to="(500,160)"/>
-    <wire from="(150,200)" to="(230,200)"/>
-    <wire from="(230,200)" to="(240,200)"/>
-    <wire from="(240,200)" to="(240,220)"/>
-    <wire from="(380,350)" to="(490,350)"/>
-    <wire from="(400,180)" to="(400,240)"/>
-    <wire from="(490,290)" to="(490,350)"/>
-    <wire from="(150,150)" to="(440,150)"/>
-    <wire from="(270,250)" to="(270,370)"/>
-    <wire from="(500,160)" to="(500,250)"/>
-    <wire from="(400,180)" to="(440,180)"/>
-    <wire from="(230,330)" to="(330,330)"/>
-    <wire from="(490,290)" to="(530,290)"/>
-    <comp lib="0" loc="(150,200)" name="Pin">
+    <wire from="(190,250)" to="(350,250)"/>
+    <wire from="(400,240)" to="(510,240)"/>
+    <wire from="(300,160)" to="(330,160)"/>
+    <wire from="(210,180)" to="(210,190)"/>
+    <wire from="(210,130)" to="(210,140)"/>
+    <wire from="(330,160)" to="(330,220)"/>
+    <wire from="(330,220)" to="(350,220)"/>
+    <wire from="(210,180)" to="(250,180)"/>
+    <wire from="(210,140)" to="(250,140)"/>
+    <wire from="(190,130)" to="(210,130)"/>
+    <wire from="(190,190)" to="(210,190)"/>
+    <comp lib="0" loc="(190,130)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="Questão 2 - 30 pontos"/>
+      <a name="label" val="A"/>
     </comp>
-    <comp lib="1" loc="(380,240)" name="OR Gate"/>
-    <comp lib="1" loc="(490,160)" name="AND Gate"/>
-    <comp lib="1" loc="(380,350)" name="AND Gate"/>
-    <comp lib="0" loc="(630,270)" name="Pin">
+    <comp lib="1" loc="(300,160)" name="AND Gate"/>
+    <comp lib="0" loc="(190,190)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="1" loc="(400,240)" name="OR Gate"/>
+    <comp lib="0" loc="(510,240)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(150,150)" name="Pin">
+    <comp lib="0" loc="(190,250)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="Questão 1 - 40 pontos"/>
+      <a name="label" val="A"/>
     </comp>
-    <comp lib="0" loc="(150,250)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Questão 3 - 30 pontos"/>
-    </comp>
-    <comp lib="1" loc="(580,270)" name="OR Gate"/>
   </circuit>
 </project>
