@@ -1,0 +1,8 @@
+POSSÍVEIS COMPONENTES DO PROJETO:
+
+1) ESP32 com câmera embutida;
+2) Arduino UNO;
+2) Duas rodas grandes MAIORES que a caixa;
+3) Uma caixa (para esconder a maioria dos componentes);
+4) Sensores de distância;
+5) ?? Alarme físico ??;
