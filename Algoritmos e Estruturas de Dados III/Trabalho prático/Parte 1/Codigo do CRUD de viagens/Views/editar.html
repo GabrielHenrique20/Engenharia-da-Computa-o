@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividades Salvas</title>
+    <link rel="stylesheet" href="css/editar.css">
+</head>
+<body>
+<div class="container">
+    <h1>Atividades Salvas</h1>
+
+    <!-- Loading -->
+    <div class="loading" id="loading">Carregando...</div>
+
+    <!-- Erro -->
+    <div class="error-message" id="errorMessage" style="display: none;">
+        Erro ao carregar as atividades.
+    </div>
+
+    <!-- Lista -->
+    <ul class="atividade-list">
+        <li class="atividade-item">
+            <div class="atividade-info">
+                <h2 class="titulo">Estudar MVC</h2>
+                <p class="descricao">Revisar conceitos de Model, View e Controller.</p>
+                <div class="prioridade">
+                    <span>Prioridade:</span>
+                    <span class="tag prioridade-alta">ALTA</span>
+                </div>
+                <small class="ultima-mod">Última modificação: 29/08/2025 13:20</small>
+            </div>
+            <div class="actions">
+                <a href="editar-atividade.html" class="edit-btn">✏️</a>
+            </div>
+        </li>
+
+        <li class="atividade-item">
+            <div class="atividade-info">
+                <h2 class="titulo">Praticar SwiftUI</h2>
+                <p class="descricao">Criar telas usando NavigationView e List.</p>
+                <div class="prioridade">
+                    <span>Prioridade:</span>
+                    <span class="tag prioridade-media">MÉDIA</span>
+                </div>
+                <small class="ultima-mod">Última modificação: 28/08/2025 19:40</small>
+            </div>
+            <div class="actions">
+                <a href="editar-atividade.html" class="edit-btn">✏️</a>
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

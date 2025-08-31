@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(0, 255, 255, 0.2), white);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+  }
+  
+  .form-container {
+    background: #ffffffcc;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: teal;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: gray;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .prioridade-container {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .prioridade {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .prioridade.baixa {
+    background: rgba(0, 128, 0, 0.3);
+  }
+  
+  .prioridade.media {
+    background: rgba(255, 255, 0, 0.3);
+  }
+  
+  .prioridade.alta {
+    background: rgba(255, 0, 0, 0.3);
+  }
+  
+  .prioridade.selected {
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  .prioridade.baixa.selected { background: green; border-color: green; }
+  .prioridade.media.selected { background: gold; border-color: goldenrod; }
+  .prioridade.alta.selected { background: red; border-color: darkred; }
+  
+  .btn-salvar {
+    width: 100%;
+    padding: 14px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,128,128,0.3);
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .btn-salvar:disabled {
+    background-color: #9bd9d9;
+    cursor: not-allowed;
+  }
+  
+  .btn-salvar:hover:not(:disabled) {
+    background-color: #007f7f;
+    transform: scale(1.05);
+  }
+  
+  .mensagem {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,114 @@
+/* Fundo com gradiente */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgba(0, 255, 255, 0.2), #fff);
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal */
+.remover-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Loader */
+.loading {
+    text-align: center;
+    font-size: 18px;
+    color: teal;
+    font-weight: bold;
+}
+
+/* Mensagem de erro */
+.error-message {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Lista de atividades */
+.atividade-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Card de atividade */
+.atividade-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: rgba(255,255,255,0.7);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.atividade-item:hover {
+    transform: scale(1.02);
+}
+
+/* Informações da atividade */
+.atividade-info h3 {
+    color: teal;
+    margin: 0 0 5px 0;
+    font-size: 1.1rem;
+}
+
+.atividade-info p {
+    margin: 4px 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+/* Prioridade */
+.prioridade-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
+
+/* Cores das prioridades */
+.prioridade-alta { background: red; }
+.prioridade-media { background: orange; }
+.prioridade-baixa { background: green; }
+
+/* Última modificação */
+.ultima-mod {
+    font-size: 12px;
+    color: gray;
+    margin-top: 4px;
+}
+
+/* Botão remover */
+.btn-remover {
+    background: rgba(255,0,0,0.8);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s, background 0.2s;
+}
+
+.btn-remover:hover {
+    transform: scale(1.1);
+    background: red;
+}
+
+/* Para centralizar ícone ou loader no card se precisar */
+.atividade-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
