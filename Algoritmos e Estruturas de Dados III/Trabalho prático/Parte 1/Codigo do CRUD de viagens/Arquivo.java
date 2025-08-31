@@ -52,6 +52,7 @@ public class Arquivo<T extends Registro> {
     public T read(int id) throws Exception {
         arquivo.seek(12);
         while (arquivo.getFilePointer() < arquivo.length()) {
+            @SuppressWarnings("unused")
             long posicao = arquivo.getFilePointer();
             byte lapide = arquivo.readByte();
             short tamanho = arquivo.readShort();

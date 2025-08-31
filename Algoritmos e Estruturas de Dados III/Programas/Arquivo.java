@@ -10,18 +10,20 @@ public class Arquivo<T extends Registro> {
 
     public Arquivo(String nomeArquivo, Constructor<T> construtor) throws Exception {
         File diretorio = new File("./dados");
-        if (!diretorio.exists()) diretorio.mkdir();
+        if (!diretorio.exists())
+            diretorio.mkdir();
 
         diretorio = new File("./dados/" + nomeArquivo);
-        if (!diretorio.exists()) diretorio.mkdir();
+        if (!diretorio.exists())
+            diretorio.mkdir();
 
         this.nomeArquivo = "./dados/" + nomeArquivo + "/" + nomeArquivo + ".db";
         this.construtor = construtor;
         this.arquivo = new RandomAccessFile(this.nomeArquivo, "rw");
 
         if (arquivo.length() < TAM_CABECALHO) {
-            arquivo.writeInt(0);    // Último ID usado
-            arquivo.writeLong(-1);  // Lista de registros excluídos
+            arquivo.writeInt(0); // Último ID usado
+            arquivo.writeLong(-1); // Lista de registros excluídos
         }
     }
 
@@ -37,12 +39,12 @@ public class Arquivo<T extends Registro> {
         if (endereco == -1) {
             arquivo.seek(arquivo.length());
             endereco = arquivo.getFilePointer();
-            arquivo.writeByte(' ');  // Lápide
+            arquivo.writeByte(' '); // Lápide
             arquivo.writeShort(dados.length);
             arquivo.write(dados);
         } else {
             arquivo.seek(endereco);
-            arquivo.writeByte(' ');  // Remove a lápide
+            arquivo.writeByte(' '); // Remove a lápide
             arquivo.skipBytes(2);
             arquivo.write(dados);
         }
@@ -52,6 +54,7 @@ public class Arquivo<T extends Registro> {
     public T read(int id) throws Exception {
         arquivo.seek(TAM_CABECALHO);
         while (arquivo.getFilePointer() < arquivo.length()) {
+            @SuppressWarnings("unused")
             long posicao = arquivo.getFilePointer();
             byte lapide = arquivo.readByte();
             short tamanho = arquivo.readShort();
