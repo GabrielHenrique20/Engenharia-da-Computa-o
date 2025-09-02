@@ -1,4 +1,4 @@
-# Aeds-3
+# 💽Aeds-3
 Bem-vindo ao repositório Aeds 3! Aqui você encontrará uma coleção de códigos desenvolvidos durante o curso de Algoritmos e Estruturas de Dados 3, além de estudos baseados na memória secundáris e externa de diversos sistemas
 computacionais!!
 
